@@ -1,0 +1,65 @@
+.content{
+    /* single value give each side of the borger the same measure*/
+    border-width: 2px;
+
+    /* double value width gives top and bottom one value and left and right the second value */
+
+    /* border-width: 2px 4px; */
+    border-style: solid;
+    border-color: red;
+    padding-left: 60px;
+}
+
+.items{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+    width: 280px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    background-color: rgb(221, 241, 234);
+    border-radius: 7px;
+}
+
+.items img{
+    width: 80%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.parent{
+    /* border shorthand uses the border; width value space the border style value space border color*/
+    border: 2px solid green;
+    margin: 20px;
+    padding-left: 35px;
+}
+
+.parent p{
+    width: 300px;
+    border: 2px solid blue;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.left{
+    text-align: left;
+    background-color: aquamarine;
+}
+
+.center{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.right{
+    text-align: right;
+    background-color: skyblue;
+}
+
+.justify{
+    text-align: justify;
+    background-color: blanchedalmond;
+}
