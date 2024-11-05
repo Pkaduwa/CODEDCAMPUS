@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to left, coral, gold);
+    opacity: 0.5;
+}
+
+.rectangle{
+    width: 60%;
+    height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.center{
+    background: floralwhite;
+    -webkit-text-fill-color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+
+
+
+
+
+.circle{
+width: 400px;
+height: 400px;
+border: 5px solid black;
+border-radius: 5000px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+.center{
+background: floralwhite;
+-webkit-text-fill-color: black;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-weight: bolder;
+font-size: 80px;
+}
